@@ -1,0 +1,191 @@
+.header-bg-img{
+    background-image: url("./img/arkaplan.jpg");
+    height: 750px;
+}
+
+.header-bg-color{
+    /* 0.6 opaklık için kullanılır */
+    background-color:rgb(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.margin-header{
+    margin-top: 150px;
+}
+
+.fs-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+::placeholder{
+    color: white!important;
+}
+
+.hr-div{
+    height: 10px;
+    background-color: #2d2d2d;
+}
+
+.ssg-bg-color{
+    background-color: #2d2d2d;
+}
+
+.acil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    color: white;
+    width: 100%;
+    padding: 16px;
+    border: none;
+}
+
+.acil, i{
+    font-size: 24px;
+}
+
+.acilmis{
+    margin-top: 1px;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    display: none;
+}
+
+.dondur{
+    transform: rotate(45deg);
+}
+
+.goster{
+    display: block;
+}
+
+section.bg-black .container .ssg-bg-color:hover{
+    background-color: #414141;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.anonim{
+    max-width: 61.5rem;
+}
+
+footer.bg-black .container .row div ul li{
+    font-size: 14px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+
+/* login page */
+
+.logheader-bg-img{
+    height: 750px;
+}
+
+
+.kutu{
+    height: 600px;
+    width: 450px;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.div_container_mail, .div_container_pass{
+    position: relative;
+}
+
+.mail-pass{
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    color: goldenrod;
+    font-size: 15px;
+}
+
+.mail-pass-kucuk{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    color: goldenrod;
+    font-size: 10px;
+}
+
+.loginimg{
+    margin: 20px;
+    height: 50; 
+    width: 200px;
+}
+
+.kayitol{
+    padding-top: 16px;
+    margin-bottom: 40px!important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kayitolin{
+    background-color: #333333!important;
+    border: 1px solid #333333;
+    color: white!important;
+}
+
+.kayitolin input{
+    background-color: #333333!important;
+}
+
+ .kayitolin::placeholder{
+    color: #696969!important;
+}
+
+.remember{
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.help:hover{
+    text-decoration: underline!important;
+}
+
+.lernmore{
+    font-size: smaller;
+}
+
+.bg-img{
+    background-image: url("./img/arkaplan.jpg");
+}
+
+footer{
+    height: 300px;
+}
+
+.footer-bg-color{
+    /* 0.6 opaklık için kullanılır */
+    background-color:rgb(0, 0, 0, 0.9);
+    height: 100%;
+}
+
+.quest{
+    text-decoration: none;
+    font-size: smaller;
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media (max-width: 740px) {
+        .siyah {
+    background-color: black;
+        }
+
+        footer{
+            height: 400px;
+        }
+    }
+
+.klon{
+    background-color: black;
+    color: white;
+}
